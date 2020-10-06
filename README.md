@@ -35,3 +35,11 @@ Now you can run the project with this command
 ```
 python manage.py runserver
 ```
+
+Used links
+
+```
+https://www.digitalocean.com/community/tutorials/django-authentication-with-facebook-instagram-and-linkedin#step-2-—-facebook-authentication
+
+https://www.youtube.com/watch?v=YZvRrldjf1Y&t=937s
+```
