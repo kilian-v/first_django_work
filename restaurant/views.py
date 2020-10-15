@@ -6,20 +6,6 @@ from .models import *
 
 
 # Create your views here.
-def login(request):
-    return render(request, 'restaurant/login.html')
-
-
-@login_required
-def list(request):
-    restaurants = Restaurant.objects.all()
-    context = {'restaurants': restaurants}
-    return render(request, 'restaurant/list.html', context)
-
-
-def logout(request):
-    auth_logout(request)
-    return redirect('/')
 
 
 class HomeView(ListView):
