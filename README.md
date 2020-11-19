@@ -1,6 +1,7 @@
 # Django Training
 
-This is a very simple website built with Django.
+This is my first simple website built with Django that I had to do during my internship.
+It's a website where users will use Facebook to log in and then have a list of restaurants. As soon as they click on a restaurant they will be able to see details such as location, opening and closing hours.
 
 ---
 
